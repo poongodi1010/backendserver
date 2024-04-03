@@ -24,7 +24,7 @@ const app = express();
 app.use(cors());
 const corsOptions = {
   // origin: "http://localhost:3000",
-  origin: "http://gratitude-production-f30d.up.railway.app/",
+  origin: "http://gratitude-production-f30d.up.railway.app",
 };
 
 const requestEndpoint = " https://zenquotes.io/api/today";
