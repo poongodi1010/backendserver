@@ -7,13 +7,13 @@ import fetch from "node-fetch";
 //const data = require("./data");
 
 const data = [
-  "confidence",
   "courage",
   "dreams",
   "happiness",
   "inspiration",
   "kindness",
   "leadership",
+  "life",
   "love",
   "success",
 ];
