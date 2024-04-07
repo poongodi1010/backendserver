@@ -2,9 +2,7 @@
 import express from "express";
 import cors from "cors";
 import fetch from "node-fetch";
-//import { keyword } from "./data";
-//import data from "./data";
-//const data = require("./data");
+
 
 const data = [
   "courage",
@@ -51,7 +49,7 @@ console.log("data in server", data);
         method: "GET",
       };
       console.log("word", word);
-      console.log("server url", requestEndpointWithKeyword);
+    
       const response = await fetch(requestEndpointWithKeyword, fetchOptions);
       const jsonResponse = await response.json();
       res.json(jsonResponse);
