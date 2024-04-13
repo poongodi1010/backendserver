@@ -1,12 +1,12 @@
 /* eslint-disable no-undef */
 const data = [
-  "confidence",
   "courage",
   "dreams",
   "happiness",
   "inspiration",
   "kindness",
   "leadership",
+  "life",
   "love",
   "success",
 ];
